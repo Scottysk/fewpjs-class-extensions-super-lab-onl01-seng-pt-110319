@@ -13,4 +13,8 @@ class Deciduous extends Tree {
     this.species = species;
     super(name);
   }
+  
+  static definition() {
+    return ''
+  }
 }
